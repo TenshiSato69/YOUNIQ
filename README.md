@@ -8,17 +8,18 @@
 
 ---
 
-Unlike standard rating calculators, YOUNIQ doesn't just tell you your current rating; it projects your future progress. By dragging and dropping your play data via CHUNI TOOLS, the tool:
+Unlike standard rating calculators, YOUNIQ doesn't just tell you your current rating; it projects your future progress. By dragging and dropping your play data via [CHUNI TOOLS](https://dogeon188.github.io/chuni-tools/?lang=zh_TW), the tool:
 
 *   **Identifies Rating Jumps**: Calculates the exact impact a specific target score will have on your overall B50 average.
-*   **Smart Recommendations**: Uses a K-Nearest Neighbors (KNN) algorithm to suggest charts that match your historical skill strengths (e.g., stamina, tech, or gimmicks).
-*   **Gap Analysis**: Automatically detects your "B50 floor" and suggests replacements for your weakest scores.
+*   **Smart Recommendations**: Uses a **K-Nearest Neighbors (KNN)** algorithm to suggest charts that match your historical skill strengths (e.g., **stamina**, **tech**, or **gimmicks**).
+*   **Gap Analysis**: Automatically detects your **B50 floor** and suggests replacements for your weakest scores.
 
 ## 🛠️ Tools Used
 
 ---
+*   **[Google Gemini 3 Flash (Paid Tier)](https://gemini.google.com/)**: An authentic, adaptive AI collaborator used for code optimization, architectural brainstorming, and technical documentation.
 
-The application is built with Python and utilizes the following libraries:
+The application is built with **Python **and utilizes the following libraries:
 
 *   **[Pandas](https://pandas.pydata.org) & [NumPy](https://numpy.org)**: For high-speed rating mathematics and data manipulation.
 *   **[Scikit-Learn](https://scikit-learn.org/stable/)**: Powering the KNN model for skill-based song matching.
@@ -32,8 +33,10 @@ The application is built with Python and utilizes the following libraries:
 
 ### For Users (Executable)
 1.  Navigate to the **[Releases](https://github.com/TenshiSato69/YOUNIQ/releases)** section of this repository.
-2.  Download the latest `youniq.zip`.
+2.  Download the latest `YOUNIQ.zip`.
 3.  Ensure `master.csv` is in the same folder as the executable.
+> [!WARNING]
+> The application will not work without `master.csv`
 
 ### For Developers (Source)
 If you wish to run the script manually, ensure you have Python 3.10+ installed and run:
@@ -50,7 +53,7 @@ python chuni_gui.py
 1.  **Launch**: Open `youniq.exe`.
 2.  **Import**: Drag your `player_data.csv` (exported from your rating tracker) into the dark blue drop zone.
 3.  **Set Targets**:
-    *   Choose **Target Rating** to see what scores are needed for a specific chart rating (e.g., 17.6).
+    *   Choose **Target Rating** to see what scores are needed for a specific chart rating (e.g., 17.3).
     *   Choose **Target Score** to see how much your B50 moves if you hit a specific score (e.g., 1,007,500) on various charts.
 4.  **Filter**: Use the Constant and Score range filters to narrow down your practice list.
 5.  **Analyze**: Review the **Rating Jump** and **B50 After** columns to prioritize your next play session.
@@ -58,6 +61,8 @@ python chuni_gui.py
 ## 📚 References
 
 ---
+*   **Score Evaluation**: This [link](https://chunithm.org/basic/evaluation/) from Codex's CHUNITHM English Guide
+*   **Rating Formulas**: This [link](https://chunithm.org/intermediate/rating/#rating-formula-verse) from Codex's CHUNITHM English Guide
+*   **Chart Constants**: [[CN7]CHUNITHM X-VERSE-X 譜面定数表 - Google スプレッドシート](https://docs.google.com/spreadsheets/d/1UgalRHELZBe4Wb4yKXffBJ6juj57bHgSdEWphCDsByE/edit?gid=1233839899#gid=1233839899)
+*   **Skill Tags**: [CHUNITHM Chart Codex](https://docs.google.com/spreadsheets/d/1xP1huTSA-XWKZaDfmyNh-viRbUE777d2Rg54j5-2VAU/edit?usp=sharing) by Codex
 
-*   **Rating Formulas**: Based on the standard CHUNITHM rating scale thresholds.
-*   **Skill Tags**: Chart constants and skill attributes are referenced from the included `master.csv`.
