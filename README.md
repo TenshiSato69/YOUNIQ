@@ -51,7 +51,7 @@ python chuni_gui.py
 ---
 
 1.  **Launch**: Open `youniq.exe`.
-2.  **Import**: Drag your `player_data.csv` (exported from your rating tracker) into the dark blue drop zone.
+2.  **Import**: Drag your `player_data.csv` (exported from CHUNI TOOLS) into the dark blue drop zone.
 3.  **Set Targets**:
     *   Choose **Target Rating** to see what scores are needed for a specific chart rating (e.g., 17.3).
     *   Choose **Target Score** to see how much your B50 moves if you hit a specific score (e.g., 1,007,500) on various charts.
