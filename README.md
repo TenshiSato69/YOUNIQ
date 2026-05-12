@@ -19,7 +19,7 @@ Unlike standard rating calculators, YOUNIQ doesn't just tell you your current ra
 ---
 *   **[Google Gemini 3 Flash (Paid Tier)](https://gemini.google.com/)**: An authentic, adaptive AI collaborator used for code optimization, architectural brainstorming, and technical documentation.
 
-The application is built with **Python **and utilizes the following libraries:
+The application is built with **Python** and utilizes the following libraries:
 
 *   **[Pandas](https://pandas.pydata.org) & [NumPy](https://numpy.org)**: For high-speed rating mathematics and data manipulation.
 *   **[Scikit-Learn](https://scikit-learn.org/stable/)**: Powering the KNN model for skill-based song matching.
