@@ -8,7 +8,7 @@
 
 ---
 
-Unlike standard rating calculators, YOUNIQ doesn't just tell you your current rating; it projects your future progress. By dragging and dropping your play data via [CHUNI TOOLS](https://dogeon188.github.io/chuni-tools/?lang=zh_TW), the tool:
+Unlike standard rating calculators, YOUNIQ doesn't just tell you your current rating; it projects your future progress. By dragging and dropping your play data via [tsaibee's CHUNI TOOLS](https://chuni.tsaibee.org), the tool:
 
 *   **Identifies Rating Jumps**: Calculates the exact impact a specific target score will have on your overall B50 average.
 *   **Smart Recommendations**: Uses a **K-Nearest Neighbors (KNN)** algorithm to suggest charts that match your historical skill strengths (e.g., **stamina**, **tech**, or **gimmicks**).
