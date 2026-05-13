@@ -1,5 +1,4 @@
 # YOUNIQ: CHUNITHM Skill-Based Recommendation Tool
-
 ---
 
 **YOUNIQ** is a **skill-based recommendation** tool designed for **experienced CHUNITHM** players. It analyzes your current **Best 50 (B50) records** and provides a calculated roadmap to your next rating goal by identifying the most efficient upscores and new charts to play based on your **unique skill profile**.
@@ -65,4 +64,5 @@ python chuni_gui.py
 *   **Rating Formulas**: This [link](https://chunithm.org/intermediate/rating/#rating-formula-verse) from Codex's CHUNITHM English Guide
 *   **Chart Constants**: [[CN7]CHUNITHM X-VERSE-X 譜面定数表 - Google スプレッドシート](https://docs.google.com/spreadsheets/d/1UgalRHELZBe4Wb4yKXffBJ6juj57bHgSdEWphCDsByE/edit?gid=1233839899#gid=1233839899)
 *   **Skill Tags**: [CHUNITHM Chart Codex](https://docs.google.com/spreadsheets/d/1xP1huTSA-XWKZaDfmyNh-viRbUE777d2Rg54j5-2VAU/edit?usp=sharing) by Codex
+*   **CHUNI TOOLS**: tsaibee's [CHUNI TOOLS](https://chuni.tsaibee.org)
 
